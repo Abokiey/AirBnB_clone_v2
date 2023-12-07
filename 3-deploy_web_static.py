@@ -7,6 +7,7 @@ from datetime import datetime
 
 env.hosts = ['54.236.44.210', '52.86.185.202']
 
+
 def do_pack():
     """compress files in a directory"""
     now = datetime.now()
@@ -19,6 +20,7 @@ def do_pack():
     if res.succeeded:
         return path
     return None
+
 
 def do_deploy(archive_path):
     """deploy archive path to the web servers"""
@@ -46,6 +48,7 @@ def do_deploy(archive_path):
     except Exception:
         success = False
     return success
+
 
 def deploy():
     """creates and distributes archive files to the web servers.
