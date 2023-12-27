@@ -30,7 +30,7 @@ def ctext(text):
 def pythonrt(text='is cool'):
     """text to display"""
     text = text.replace('_', ' ')
-    return ("python {}".format(text))
+    return f'Python {text}'
 
 
 if __name__ == "__main__":
