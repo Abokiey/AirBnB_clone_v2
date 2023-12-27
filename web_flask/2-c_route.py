@@ -22,7 +22,7 @@ def hbnb():
 def ctext(text):
     """text to display"""
     text = text.replace('_', ' ')
-    return (f'c {text}')
+    return f'c {text}'
 
 
 if __name__ == "__main__":
