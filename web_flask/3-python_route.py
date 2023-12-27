@@ -30,7 +30,7 @@ if __name__ == "__main__":
 
 @app.route('/python/', strict_slashes=False)
 @app.route('/python/<text>', strict_slashes=False)
-def python(text='is cool'):
+def pythonrt(text='is cool'):
     """text to display"""
     text = text.replace('_', ' ')
     return ("python {}".format(text))
