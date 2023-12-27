@@ -27,7 +27,7 @@ def ctext(text):
 
 @app.route('/python/', strict_slashes=False)
 @app.route('/python/<text>', strict_slashes=False)
-def pythonrt(text='is cool'):
+def pythontxt(text='is cool'):
     """text to display"""
     text = text.replace('_', ' ')
     return f'Python {text}'
