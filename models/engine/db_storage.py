@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-    This module introduces a class that is designed to handle the storage of the database for,
+    This module introduces a class that is designed
+    to handle the storage of the database for,
     the hbnb cloning application.
     It ensures efficient management of the database storage.
 """
